@@ -51,13 +51,18 @@ h1, p{
 
 .notavailable{
     color: red;
-    visibility:hidden;
 }
 
 .available{
     color: green;
     font-style: italic;
     font-weight: bold;
-    visibility: hidden;
 }
 
+
+.stamp01{
+    position: absolute;
+    left: 95px;
+    top: 385px;
+    font-size: 50px;
+}
