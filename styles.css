@@ -8,6 +8,7 @@ h1, p{
 
 .notavailable{
     color: red;
+    align-items: flex-start;
 }
 
 .available{
@@ -15,6 +16,7 @@ h1, p{
     font-style: italic;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-start;
 }
 
 .item1{
@@ -25,6 +27,7 @@ h1, p{
     object-fit: cover;
     padding: 20px;
     border-radius: 60px;
+    align-items: flex-start;
 }
 
 .name{
@@ -52,6 +55,7 @@ h1, p{
     height: 5%;
     object-fit: cover;
     z-index: -1;
+    align-items: flex-start;
 }
 
 .item{
@@ -61,6 +65,7 @@ h1, p{
     object-fit: cover;
     padding: 20px;
     border-radius: 60px;
+    align-items: flex-start;
 }
 
 .stamp1{
@@ -68,6 +73,7 @@ h1, p{
     left: 150px;
     top: 310px;
     height: 20%;
+    align-items: flex-start;
 
     
 }
@@ -77,6 +83,7 @@ h1, p{
     left:170px;
     top:500px;
     font-size: 50px;
+    align-items: flex-start;
 }
 
 
@@ -85,6 +92,7 @@ h1, p{
     left: 625px;
     top: 310px;
     height: 20%;
+    align-items: flex-start;
 }
 
 .stamp02{
@@ -92,6 +100,7 @@ h1, p{
     left:645px;
     top:500px;
     font-size: 50px;
+    align-items: flex-start;
 }
 
 .stamp3{
@@ -99,6 +108,7 @@ h1, p{
     left: 1100px;
     top: 310px;
     height: 20%;
+    align-items: flex-start;
 }
 
 .stamp03{
@@ -106,6 +116,7 @@ h1, p{
     left:1075px;
     top:500px;
     font-size: 50px;
+    align-items: flex-start;
 }
 
 .stamp4{
@@ -113,6 +124,7 @@ h1, p{
     left: 1565px;
     top: 310px;
     height: 20%;
+    align-items: flex-start;
 }
 
 .stamp04{
@@ -120,4 +132,75 @@ h1, p{
     left:1545px;
     top:500px;
     font-size: 50px;
+    align-items: flex-start;
 }
+
+.stamp5{
+    position: absolute;
+    left: 70px;
+    top: 780px;
+    height: 20%;
+    align-items: flex-start;
+}
+
+.stamp05{
+    position: absolute;
+    left:170px;
+    top:970px;
+    font-size: 50px;
+    align-items: flex-start;
+}
+
+.stamp6{
+    position: absolute;
+    left: 625px;
+    top: 780px;
+    height: 20%;
+    align-items: flex-start;
+}
+
+.stamp06{
+    position: absolute;
+    left:625px;
+    top:970px;
+    font-size: 50px;
+    align-items: flex-start;
+}
+
+.stamp7{
+    position: absolute;
+    left: 1060px;
+    top: 780px;
+    height: 20%;
+    align-items: flex-start;
+}
+
+.stamp07{
+    position: absolute;
+    left:1110px;
+    top:970px;
+    font-size: 50px;
+    align-items: flex-start;
+}
+
+.stamp8{
+    position: absolute;
+    left: 1525px;
+    top: 780px;
+    height: 20%;
+    align-items: flex-start;
+}
+
+.stamp08{
+    position: absolute;
+    left:1575px;
+    top:970px;
+    font-size: 50px;
+    align-items: flex-start;
+}
+
+.footer{
+height: 25%;
+background-color: white;
+}
+
