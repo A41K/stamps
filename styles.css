@@ -6,6 +6,27 @@ h1, p{
     color:  #00246B;
 }
 
+.notavailable{
+    color: red;
+}
+
+.available{
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item1{
+    position: relative;
+    size: relative;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 60px;
+}
+
 .name{
     text-align: center;
     margin-top: 6rem;
@@ -58,22 +79,45 @@ h1, p{
     font-size: 50px;
 }
 
-.notavailable{
-    color: red;
-}
 
-.available{
-    color: green;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.item1{
-    position: relative;
-    size: relative;
-    width: 20%;
+.stamp2{
+    position: absolute;
+    left: 625px;
+    top: 310px;
     height: 20%;
-    object-fit: cover;
-    padding: 20px;
-    border-radius: 60px;
+}
+
+.stamp02{
+    position: absolute;
+    left:645px;
+    top:500px;
+    font-size: 50px;
+}
+
+.stamp3{
+    position: absolute;
+    left: 1100px;
+    top: 310px;
+    height: 20%;
+}
+
+.stamp03{
+    position: absolute;
+    left:1075px;
+    top:500px;
+    font-size: 50px;
+}
+
+.stamp4{
+    position: absolute;
+    left: 1565px;
+    top: 310px;
+    height: 20%;
+}
+
+.stamp04{
+    position: absolute;
+    left:1545px;
+    top:500px;
+    font-size: 50px;
 }
