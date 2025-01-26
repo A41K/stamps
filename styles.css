@@ -266,14 +266,23 @@ h1, p{
     font-style: italic;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (min-width: 360px) and (min-height: 800px){
+    
+    h1, p{
+        color:  #00246B;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        text-align: center;
+    }
+    
     .image{
         width: 450px;
     }
 
     .item{
         position: relative;
-        width: 40%;
+        width: 35%;
         height: 35%;
         object-fit: cover;
         padding: 20px;
@@ -283,9 +292,9 @@ h1, p{
     
     .stamp1{
         position: absolute;
-        left: 80px;
-        top: 310px;
-        height: 10%;
+        left: 62.5px;
+        top: 290px;
+        height: 8%;
         align-items: flex-start;
     
         
@@ -293,26 +302,26 @@ h1, p{
     
     .stamp01{
         position: absolute;
-        left:80px;
-        top:380px;
-        font-size: 30px;
+        left:55px;
+        top:350px;
+        font-size: 15px;
         align-items: flex-start;
     }
     
     
     .stamp2{
         position: absolute;
-        left: 300px;
-        top: 310px;
-        height: 10%;
+        left: 225px;
+        top: 290px;
+        height: 8%;
         align-items: flex-start;
     }
     
     .stamp02{
         position: absolute;
-        left:300px;
-        top:380px;
-        font-size: 30px;
+        left:215px;
+        top:350px;
+        font-size: 15px;
         align-items: flex-start;
     }
     
@@ -414,8 +423,8 @@ h1, p{
 
     .arrow{
         position: absolute;
-        left: 50px;
-        top: 90px;
+        left: 30px;
+        top: 95px;
         width: 10%;
         text-align: center;
         font-weight: bold;
