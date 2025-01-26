@@ -199,19 +199,13 @@ h1, p{
     align-items: flex-start;
 }
 
-.footer{
-    position: relative;
-    height: 25%;
-    background-color: white;
-}
 
-.footer2{
-    position: relative;
-    height: 25%;
-    background-color: white;
-    text-align: center;
-    top: 130px;
-    width: 100%;
+
+.container{
+    position: fixed;
+    min-height: 14vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -259,16 +253,7 @@ h1, p{
     width: 50%;
 }
 
-.biztos{
-    position: absolute;
-    rotate: 45deg;
-    left: 360px;
-    top: 400px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-}
+
 
 .arrow{
     position: absolute;
@@ -279,4 +264,10 @@ h1, p{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+}
+
+@media screen and (max-width: 700px){
+    .image{
+        width: 450px;
+    }
 }
